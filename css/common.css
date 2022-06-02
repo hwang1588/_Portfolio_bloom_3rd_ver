@@ -1358,7 +1358,7 @@ polygon {
   /*	border-right: 0.001rem solid;*/
   text-align: start;
   color: #69008E;
-  font-family: "SCDream5";
+  font-family: "SCDream5" !important;
   font-size: 45px;
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
@@ -1436,7 +1436,7 @@ polygon {
     typing2 0.5s steps(6, end),
     blink-caret .4s step-end infinite;
   margin: 0;
-  font-family: "SCDream6";
+  font-family: "SCDream6" !important;
 }
 
 .typewriter2_2 p {
@@ -1449,7 +1449,7 @@ polygon {
     typing2 2.5s steps(30, end),
     blink-caret .4s step-end infinite;
   margin-bottom: 30px;
-  font-family: "SCDream4";
+  font-family: "SCDream4" !important;
 
 }
 
@@ -1463,7 +1463,7 @@ polygon {
     typing2 2.5s steps(30, end),
     blink-caret .4s step-end infinite;
   margin-bottom: 30px;
-  font-family: "SCDream4";
+  font-family: "SCDream4" !important;
 }
 
 /* The typing effect */
@@ -1505,7 +1505,7 @@ polygon {
     typing3 0.5s steps(6, end),
     blink-caret .4s step-end infinite;
   margin: 0;
-  font-family: "SCDream6";
+  font-family: "SCDream6" !important;
 }
 
 .typewriter3_2 p {
@@ -1518,7 +1518,7 @@ polygon {
     typing3 2.5s steps(30, end),
     blink-caret .4s step-end infinite;
   margin-bottom: 30px;
-  font-family: "SCDream4";
+  font-family: "SCDream4" !important;
 
 }
 
@@ -1532,7 +1532,7 @@ polygon {
     typing3 2.5s steps(30, end),
     blink-caret .4s step-end infinite;
   margin-bottom: 30px;
-  font-family: "SCDream4";
+  font-family: "SCDream4" !important;
 }
 
 /* The typing effect */
