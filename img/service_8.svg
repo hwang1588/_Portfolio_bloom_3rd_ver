@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="176" viewBox="0 0 296 176">
+  <g id="그룹_539" data-name="그룹 539" transform="translate(-1280 -781)">
+    <rect id="사각형_245" data-name="사각형 245" width="296" height="176" transform="translate(1280 781)" fill="#fff"/>
+    <text id="E-커머스" transform="translate(1428 935)" fill="#333" font-size="20" font-family="NotoSans, Noto Sans"><tspan x="-38.78" y="0">E-</tspan><tspan y="0" font-family="MalgunGothic, Malgun Gothic">커머스</tspan></text>
+    <g id="b" transform="translate(1395 803)">
+      <g id="c">
+        <g id="그룹_311" data-name="그룹 311">
+          <g id="그룹_309" data-name="그룹 309">
+            <rect id="사각형_249" data-name="사각형 249" width="44.544" height="80.125" rx="5.17" fill="#333"/>
+            <rect id="사각형_250" data-name="사각형 250" width="34.894" height="59.822" transform="translate(4.825 10.152)" fill="#bbf1ff"/>
+          </g>
+          <path id="패스_332" data-name="패스 332" d="M28.128,27.29h0a2.432,2.432,0,0,1,2.434,2.434V46.076H25.68V29.724a2.432,2.432,0,0,1,2.434-2.434Z" transform="translate(11.089 11.785)" fill="#e56353"/>
+          <path id="패스_333" data-name="패스 333" d="M47.177,68.317H22.121a6.791,6.791,0,0,1-6.515-4.925L10.58,45.58H58.7L53.678,63.392a6.766,6.766,0,0,1-6.515,4.925Z" transform="translate(4.569 19.683)" fill="#fcd462"/>
+          <rect id="사각형_251" data-name="사각형 251" width="3.966" height="13.874" rx="1.39" transform="translate(37.227 69.701)" fill="#fff"/>
+          <rect id="사각형_252" data-name="사각형 252" width="3.966" height="13.874" rx="1.39" transform="translate(26.624 70.149) rotate(-8.9)" fill="#fff"/>
+          <rect id="사각형_253" data-name="사각형 253" width="3.966" height="13.874" rx="1.39" transform="translate(49.628 83.865) rotate(-171.1)" fill="#fff"/>
+          <rect id="사각형_254" data-name="사각형 254" width="52.09" height="5.069" rx="1.77" transform="translate(13.173 58.318)" fill="#44c4a1"/>
+          <g id="그룹_310" data-name="그룹 310" transform="translate(34.063 55.698)">
+            <path id="패스_334" data-name="패스 334" d="M28.621,47.811A4.081,4.081,0,1,1,32.7,43.731,4.088,4.088,0,0,1,28.621,47.811Z" transform="translate(-23.466 -38.576)" fill="#dc8744"/>
+            <path id="패스_335" data-name="패스 335" d="M28.945,41.048a3.007,3.007,0,1,1-3.007,3.007,3.006,3.006,0,0,1,3.007-3.007m0-2.148A5.155,5.155,0,1,0,34.1,44.055,5.151,5.151,0,0,0,28.945,38.9Z" transform="translate(-23.79 -38.9)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

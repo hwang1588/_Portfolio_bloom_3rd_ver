@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="63" viewBox="0 0 240 63">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 43 53">
+      <image width="43" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAA1CAYAAADYgRIrAAAACXBIWXMAACxKAAAsSgF3enRNAAACoElEQVRoge1Z7W3bMBC9Cv1vZYJ6g3qDOBt4gzoTxBvUnaDqBu4EsSeIM0GdCSJvIE3A4oxH9yqTFCmbFAv0AUQCUTy9vJD3xQ9KKUqMkojmRDQjoj2GFz4m5MkkKyJaENFEPM+O7BJEJx7vWpGC7IaIvljmmhBDxW34WLF2EKWQLcCIecD4EL045o9ENA0xGFPZqmd+HWowlrJ84p8d88GqUkRllz3ziyFGY5GdO+YeiegwxGgM18XO3+RPWyi+HWo4hrIcRrv4iT06mChFOmCs7Aq/1yAY5Pxt8CE7xYHQyccnPH/D3tt6KFbChrbT3SZvCBBbZ6BgspYxVUptlB8apVSFNdLeHDYaTzuMPdZd8LIRXQZ+QOKAD9YD12tUPmR91UyBjYvsOiOiGmeFpevijf818ICmwDksS29Qi5OeCx6RD5+glV3mTpSEsrmp+oP+BJYzmCw7+l/j8bqANX0shqZrEWFNyllZDm/3mRBtEZqNKCxZ0lhwFpDFtbX8jeFMymOX4qFwppL/yV4BZ8X7T5Fl15W85+lAr+t6zYElMHEFqeJWxdwNcZETSLKDGg4RcW8jXIS2HRPhuymyarJthoT33f1biIncMEEnstIeQpO9qq0TGU8oDmayBmsyS2q6uJMRbOO3ZhTsWEypLIe690zJPvC5ksrWaE3mhlftALpdxBzVfdBku1lXjTI4F+ykWzX1Z0uE4LH7CC2iWK0fmPLZxuO2JQVWkqiNLEH6byMS3ZlcaV+bfoyewhH//ovUta+sWaDfnwotvmnMsX0uQEoo/NmD8A6Hs8YHZximS48uWrxnz68dFyBylOhAm8B3Byu841rP9xR832ACt+Nd608j9B6Mgwb/9fyT1WMVQisNXiurWLbz16k3goh+AyfQp6/3AAVYAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="그룹_531" data-name="그룹 531" transform="translate(-1344 -7085)">
+    <g id="사각형_112" data-name="사각형 112" transform="translate(1344 7085)" fill="rgba(255,255,255,0.3)" stroke="#fff" stroke-width="1">
+      <rect width="240" height="63" rx="31.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="239" height="62" rx="31" fill="none"/>
+    </g>
+    <g id="그룹_160" data-name="그룹 160" transform="translate(279 -1)">
+      <text id="App_Store" data-name="App Store" transform="translate(1158 7125)" fill="#fff" font-size="20" font-family="NotoSans-Regular, Noto Sans"><tspan x="0" y="0">App Store</tspan></text>
+      <rect id="자산_3_4x" data-name="자산 3@4x" width="22" height="27" transform="translate(1120 7104)" fill="url(#pattern)"/>
+    </g>
+  </g>
+</svg>

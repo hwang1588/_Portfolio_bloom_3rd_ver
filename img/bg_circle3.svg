@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="502" height="502" viewBox="0 0 502 502">
+  <defs>
+    <filter id="타원_37" x="0" y="0" width="502" height="502" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#ffefc1"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#타원_37)">
+    <circle id="타원_37-2" data-name="타원 37" cx="236" cy="236" r="236" transform="translate(15 15)" fill="#fffaeb"/>
+  </g>
+</svg>

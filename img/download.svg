@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="63" viewBox="0 0 240 63">
+  <g id="그룹_551" data-name="그룹 551" transform="translate(-1072 -8165)">
+    <g id="사각형_110" data-name="사각형 110" transform="translate(1072 8165)" fill="rgba(255,255,255,0.3)" stroke="#fff" stroke-width="1">
+      <rect width="240" height="63" rx="31.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="239" height="62" rx="31" fill="none"/>
+    </g>
+    <g id="그룹_550" data-name="그룹 550" transform="translate(8)">
+      <text id="Download" transform="translate(1157 8204)" fill="#fff" font-size="20" font-family="NotoSans-Regular, Noto Sans"><tspan x="0" y="0">Download</tspan></text>
+      <path id="cloud-arrow-down-fill" d="M12,2A8.3,8.3,0,0,0,6.609,4.013a6.308,6.308,0,0,0-2.2,3.574A5.513,5.513,0,0,0,5.671,18.5H19.031a4.834,4.834,0,0,0,.719-9.632A7.7,7.7,0,0,0,12,2Zm3.531,10.281-3,3a.75.75,0,0,1-1.062,0l-3-3a.751.751,0,1,1,1.062-1.062l1.719,1.721V7.25a.75.75,0,0,1,1.5,0v5.689l1.719-1.72a.751.751,0,1,1,1.062,1.062Z" transform="translate(1117 8186)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

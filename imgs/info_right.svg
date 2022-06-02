@@ -1,0 +1,21 @@
+<svg id="구성_요소_10_1" data-name="구성 요소 10 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96.166" height="107.955" viewBox="0 0 96.166 107.955">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="패스_450" data-name="패스 450" d="M66.234,0,10.105,7.542C3.869,8.537.232,10.616,0,15.669L.709,65.446a8.777,8.777,0,0,0,10.047,8.9l-8.1,16.768,21.533-14.85,36.15,4.886a8.726,8.726,0,0,0,6.988-7.121L73.813,9.8A8.642,8.642,0,0,0,66.234,0Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_2734" data-name="사각형 2734" width="5.93" height="38.204" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_570" data-name="그룹 570" transform="translate(25.114) rotate(16)" opacity="0.8">
+    <g id="그룹_569" data-name="그룹 569" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="패스_451" data-name="패스 451" d="M0,0H74.557V91.111H0Z" transform="translate(0 0)" fill="#bcbcbc"/>
+    </g>
+  </g>
+  <g id="그룹_556" data-name="그룹 556" transform="translate(53.144 30.459) rotate(24)">
+    <g id="그룹_550" data-name="그룹 550" clip-path="url(#clip-path-2)">
+      <path id="패스_445" data-name="패스 445" d="M2.77,30.282h0A2.77,2.77,0,0,1,0,27.513V2.77a2.77,2.77,0,0,1,5.539,0V27.513a2.77,2.77,0,0,1-2.77,2.77" transform="translate(0.195 7.922)" fill="#fff"/>
+      <path id="패스_446" data-name="패스 446" d="M5.93,2.965A2.965,2.965,0,1,1,2.965,0,2.965,2.965,0,0,1,5.93,2.965" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

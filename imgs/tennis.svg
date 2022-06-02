@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="244.546" height="147.573" viewBox="0 0 244.546 147.573">
+  <defs>
+    <filter id="사각형_2740" x="0" y="0" width="244.546" height="147.573" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_835" data-name="그룹 835" transform="translate(-1293.101 -450.995)">
+    <g transform="matrix(1, 0, 0, 1, 1293.1, 450.99)" filter="url(#사각형_2740)">
+      <rect id="사각형_2740-2" data-name="사각형 2740" width="214" height="74" rx="37" transform="translate(17.9) rotate(14)" fill="#a7a7a7" opacity="0.86"/>
+    </g>
+    <text id="_테니스_모임" data-name="#테니스 모임" transform="translate(1341.597 506.031) rotate(14)" fill="#fff" font-size="22" font-family="S-CoreDream-5Medium, 'S-Core Dream \35 '" font-weight="500"><tspan x="0" y="0">#테니스 모임</tspan></text>
+  </g>
+</svg>

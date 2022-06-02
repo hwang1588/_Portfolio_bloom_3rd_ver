@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316.868" height="165.605" viewBox="0 0 316.868 165.605">
+  <defs>
+    <filter id="사각형_2740" x="0" y="0" width="316.868" height="165.605" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_831" data-name="그룹 831" transform="translate(-865 -837)">
+    <g transform="matrix(1, 0, 0, 1, 865, 837)" filter="url(#사각형_2740)">
+      <rect id="사각형_2740-2" data-name="사각형 2740" width="288.537" height="74" rx="37" transform="translate(17.9) rotate(14)" fill="#b2b2b2" opacity="0.86"/>
+    </g>
+    <text id="_흰색_자동차_동호회" data-name="#흰색 자동차 동호회" transform="translate(915.452 893.287) rotate(14)" fill="#fff" font-size="22" font-family="S-CoreDream-5Medium, 'S-Core Dream \35 '" font-weight="500"><tspan x="0" y="0">#흰색 자동차 동호회</tspan></text>
+  </g>
+</svg>

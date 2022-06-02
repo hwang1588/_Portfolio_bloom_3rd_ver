@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="63" viewBox="0 0 240 63">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 48 53">
+      <image width="48" height="53" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+  </defs>
+  <g id="그룹_530" data-name="그룹 530" transform="translate(-1072 -7085)">
+    <g id="사각형_110" data-name="사각형 110" transform="translate(1072 7085)" fill="rgba(255,255,255,0.3)" stroke="#fff" stroke-width="1">
+      <rect width="240" height="63" rx="31.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="239" height="62" rx="31" fill="none"/>
+    </g>
+    <g id="그룹_159" data-name="그룹 159" transform="translate(-1 -1)">
+      <text id="Google_Play" data-name="Google Play" transform="translate(1158 7125)" fill="#fff" font-size="20" font-family="NotoSans-Regular, Noto Sans"><tspan x="0" y="0">Google Play</tspan></text>
+      <rect id="자산_2_4x" data-name="자산 2@4x" width="24" height="27" transform="translate(1118 7104)" fill="url(#pattern)"/>
+    </g>
+  </g>
+</svg>

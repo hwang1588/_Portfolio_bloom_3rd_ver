@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="176" viewBox="0 0 296 176">
+  <g id="그룹_533" data-name="그룹 533" transform="translate(-656 -589)">
+    <rect id="사각형_239" data-name="사각형 239" width="296" height="176" transform="translate(656 589)" fill="#fff"/>
+    <text id="파티" transform="translate(804 743)" fill="#333" font-size="20" font-family="MalgunGothic, Malgun Gothic"><tspan x="-20" y="0">파티</tspan></text>
+    <g id="b" transform="translate(753.693 641.981) rotate(-45)">
+      <g id="c" transform="translate(-0.01 0)">
+        <g id="그룹_315" data-name="그룹 315" transform="translate(0)">
+          <path id="패스_352" data-name="패스 352" d="M25.347,74.971,7.98,32.8H42.714Z" transform="translate(3.671 15.029)" fill="#7dd5f4"/>
+          <rect id="사각형_259" data-name="사각형 259" width="42.273" height="5.716" rx="1.96" transform="translate(7.888 38.919)" fill="#0e95c4"/>
+          <rect id="사각형_260" data-name="사각형 260" width="5.352" height="13.168" transform="translate(25.912 9.012)" fill="#e56353"/>
+          <rect id="사각형_261" data-name="사각형 261" width="5.352" height="13.168" transform="translate(48.525 17.613) rotate(45)" fill="#44c4a1"/>
+          <rect id="사각형_262" data-name="사각형 262" width="5.352" height="8.837" transform="translate(39.867 5.352) rotate(-90)" fill="#fcd462"/>
+          <rect id="사각형_263" data-name="사각형 263" width="5.352" height="13.168" transform="translate(11.59 23.29) rotate(-45)" fill="#fcd462"/>
+          <rect id="사각형_264" data-name="사각형 264" width="5.352" height="13.168" transform="translate(9.311 6.463) rotate(45)" fill="#7dd5f4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

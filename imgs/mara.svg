@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="312.466" height="164.508" viewBox="0 0 312.466 164.508">
+  <defs>
+    <filter id="사각형_2740" x="0" y="0" width="312.466" height="164.508" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_833" data-name="그룹 833" transform="translate(-996.19 -376.967)">
+    <g transform="matrix(1, 0, 0, 1, 996.19, 376.97)" filter="url(#사각형_2740)">
+      <rect id="사각형_2740-2" data-name="사각형 2740" width="284" height="74" rx="37" transform="translate(17.9) rotate(14)" fill="#792bbf" opacity="0.86"/>
+    </g>
+    <text id="_마라맛을_사랑하는_" data-name="#마라맛을 사랑하는 " transform="translate(1044.687 432.003) rotate(14)" fill="#fff" font-size="22" font-family="S-CoreDream-5Medium, 'S-Core Dream \35 '" font-weight="500"><tspan x="0" y="0">#마라맛을 사랑하는 </tspan></text>
+  </g>
+</svg>

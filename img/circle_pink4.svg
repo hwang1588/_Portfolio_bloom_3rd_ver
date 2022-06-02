@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="778" height="778" viewBox="0 0 778 778">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.549" y1="1" x2="-0.102" y2="0.479" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffac98"/>
+      <stop offset="1" stop-color="#ffe1d9"/>
+    </linearGradient>
+  </defs>
+  <g id="그룹_474" data-name="그룹 474" transform="translate(4513 -4241)">
+    <circle id="타원_133" data-name="타원 133" cx="389" cy="389" r="389" transform="translate(-4513 4241)" opacity="0.2" fill="url(#linear-gradient)"/>
+    <circle id="타원_134" data-name="타원 134" cx="288" cy="288" r="288" transform="translate(-4392 4331)" fill="#ffac98"/>
+  </g>
+</svg>

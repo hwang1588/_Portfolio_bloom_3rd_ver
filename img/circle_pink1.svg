@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="186" height="186" viewBox="0 0 186 186">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.071" y1="0.912" x2="0.109" y2="0.092" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffac98"/>
+      <stop offset="1" stop-color="#ffe1d9"/>
+    </linearGradient>
+  </defs>
+  <circle id="타원_127" data-name="타원 127" cx="93" cy="93" r="93" opacity="0.2" fill="url(#linear-gradient)"/>
+</svg>

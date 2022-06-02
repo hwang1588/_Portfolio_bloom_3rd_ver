@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!--  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">-->
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
+	<meta name="HandheldFriendly" content="true">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="theme-color" content="#000008">
+	<meta name="naver-site-verification" content="" />
+	<meta name="google-site-verification" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="부름 :: 실생활 모임 정보 플랫폼">
+	<meta property="og:description" content="국내 최대 예약 전문 플랫폼, 저렴한 가격으로 만나보세요!">
+	<meta property="og:image" content="http://naliya.net/img/logo.jpg">
+	<meta property="og:url" content="http://www.naliya.net">
+	<meta name="description" content="국내 최대 예약 전문 플랫폼, 알차게 할인된 가격으로 만나보세요!">
+	<meta name="keywords" content="나목, namok, 부름, bloom, 부름앱, 마이스코인">
+	<meta name="og:description" content="국내 최대 예약 전문 플랫폼, 알차게 할인된 가격으로 만나보세요!">
+	<meta name="og:keyword" content="나목, namok, 부름, bloom, 부름앱, 마이스코인">
+	<title>부름 :: 실생활 모임 정보 플랫폼</title>
+
+	<script>
+		function isMobile() {
+			var UserAgent = navigator.userAgent;
+			if (UserAgent.match(
+					/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i
+				) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		if (isMobile()) {
+			location.href = "/index_m.html"; //모바일페이지
+		} else {}
+	</script>
+	<!--css::S-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--css::E-->
+
+</head>
+<!--인트로 진입 로딩이미지::s--
+<div id="loading-wrapper2">
+  <div class="bg-white"></div>
+  <div class="bloom center text-dark wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">I'm Bloom
+  </div>
+  <div class="bloom center text-dark drama"></div>
+</div>
+<!--인트로 진입 로딩이미지::e-->
+
+<!--
+    <video muted="" playsinline="" loop="" autoplay="" width="3000px">
+      <source src="video/bloom.mp4" type="video/mp4" />
+    </video>
+-->
+
+<body class="">
+	<div class="circle"></div>
+	<div class="circle2"></div>
+	<div class="circle3"></div>
+
+	<!--header_투명헤더::s-->
+	<div class="container-fluid px-0 header-container bg-transparent border-bottom border-1 border-white"
+		style="z-index:9;">
+		<div class="text-bloom mx-94px my-24px">
+			<header class="d-flex flex-center">
+				<div class="col-6">
+					<a href="#">
+						<div class="header-logo header-logo-white"></div>
+					</a>
+					<!-- <img src="img/logo_white.svg" style="width: 132px"> -->
+				</div>
+				<div class="col-2">
+					<ul class="nav nav-pills">
+					</ul>
+				</div>
+				<div class="col-4">
+					<ul class="nav nav-pills float-end align-items-center">
+						<li class="nav-item">
+							<a href="/service.html" class="nav-link text-white SCDream5 fs-16px p-0 me-69px">
+								Service
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="/faq.html" class="nav-link text-white SCDream5 fs-16px p-0 me-69px">
+								FAQ
+							</a>
+						</li>
+						<li class="nav-item me-30px">
+							<a href="https://www.instagram.com/office.bloom/" target="”_blank&quot;">
+								<img src="imgs/header_insta_white.svg"
+									class="header_sns header_sns_white header_insta_white d-block">
+								<img src="imgs/header_insta_black.svg"
+									class="header_sns header_sns_black header_insta_black d-none">
+							</a>
+						</li>
+						<li class="nav-item me-30px">
+							<a href="https://www.facebook.com/AllEvent.Bloom/" target="”_blank&quot;">
+								<img src="imgs/header_fb_white.svg"
+									class="header_sns header_sns_white header_fb_white d-block">
+								<img src="imgs/header_fb_black.svg"
+									class="header_sns header_sns_black header_fb_black d-none">
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="https://blog.naver.com/namokcompany" target="”_blank&quot;">
+								<img src="imgs/header_blog_white.svg"
+									class="header_sns header_sns_white header_blog_white d-block">
+								<img src="imgs/header_blog_black.svg"
+									class="header_sns header_sns_black header_blog_black d-none">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</header>
+		</div>
+	</div>
+	<!--header_투명헤더::e-->
+	<!--main::s-->
+	<div class="swiper mySwiper1">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide main_bg1 align-items-start">
+				<!--스크롤 아이콘:s--
+				<img src="img/scroll_1.svg" class="position-absolute top-100 start-50 translate-middle object-contain"
+					style="width:30%;">
+				<div class="fixed-bottom nunito fw-bold text-bloom" style="margin-bottom: 25px">
+					Scroll
+					<div class="fixed-bottom moveup">
+						<img src="img/down_btn_bloom.svg" class="mx-auto" style="width:1%">
+					</div>
+				</div>
+				<!--스크롤 아이콘:e-->
+				<div class="container-fluid my-auto">
+					<div class="container-fluid px-0 container-bloom mx-auto">
+						<div class="container-fluid mt-5">
+							<div class="row">
+								<div class="col-auto">
+									<div class="gsap_text1 animate__animated typewriter1">
+										<p>Bloom</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-auto">
+									<div class="gsap_text1_2 animate__animated typewriter1_2 ">
+										<p class="text-white">당신이 원하는 모임 정보</p>
+										<a href="#">
+											<img src="imgs/btn_app_download.svg"
+												class="animate__animated animate__fadeInDown animate__delay-1s btn_app_download"
+												style="width: 45%;">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="row mt--90px">
+								<div class="col"></div>
+								<div class="col-1"></div>
+								<div class="col-3 d-flex justify-content-end">
+									<!-- <img src="imgs/group_info.svg" class="object-contain"> -->
+									<img src="imgs/info_left.svg"
+										class="slide1_img1 object-contain w-25 wow animate__animated animate__bounceIn"
+										data-wow-delay="0.6s" style=" margin-top: 25px">
+									<img src="imgs/info_center.svg"
+										class="slide1_img2 object-contain w-50 wow animate__animated animate__bounceIn animate__fast"
+										data-wow-delay="0.8s" style="margin-left: -20px;">
+									<img src="imgs/info_right.svg"
+										class="slide1_img3 object-contain w-25 wow animate__animated animate__bounceIn"
+										data-wow-delay="0.9s"
+										style="margin-left: -30px;  margin-top: 40px; z-index: -1">
+								</div>
+								<div class="col"></div>
+							</div>
+							<div class="row fixed-bottom">
+								<div class="col-12 d-flex justify-content-center mb-5 text-center text-white">
+									<div class="scrolldown">
+										<div class="chevrons">
+											Scroll
+											<!-- <div class="chevrondown"></div>
+											<div class="chevrondown"></div> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<!--main>sub::s-->
+				<div class="swiper mySwiper5">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide bg-white main_bg2  align-items-start">
+							<div class="container-fluid my-auto">
+								<div class="container-fluid px-0 container-bloom mx-auto">
+									<div class="container-fluid">
+										<div class="row">
+											<div class="col-6">
+												<div class="row">
+													<div class="col-auto">
+														<div class="gsap_text2 d-none SCDream5">
+															<p>빠르고 쉽게 검색하는<br>
+																모임 정보 </p>
+														</div>
+													</div>
+												</div>
+												<div class="row mt-4">
+													<div class="col-auto SCDream4">
+														<div class="gsap_text2_2 d-none">
+															<p class="text-white fs-20px  mb-0">우리 부름은 실생활 모임 정보 앱으로써
+																정보검색,
+															</p>
+														</div>
+														<div class="gsap_text2_3 d-none">
+															<p class="text-white fs-20px">
+																예약이 한번에 가능한 토탈 멀티 정보앱입니다.
+															</p>
+															<a href="#">
+																<img src="imgs/btn_app_download.svg"
+																	class="animate__animated animate__fadeInDown animate__delay-2s btn_app_download"
+																	style="width: 45%;">
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-6">
+												<div class="row mt--80px">
+
+													<div class="col-12 d-flex ">
+														<!-- <img src="imgs/group_info.svg" class="object-contain"> -->
+														<img src="imgs/mara.svg"
+															class="slide2_img slide2_img_1 object-contain animate__fast animate__delay-2s d-none">
+														<img src="imgs/tennis.svg"
+															class="slide2_img slide2_img_2 object-contain animate__fast animate__delay-2s d-none">
+													</div>
+													<div class="col-12 d-flex">
+														<img src="imgs/car.svg"
+															class="slide2_img slide2_img_3 object-contain animate__fast animate__delay-2s d-none">
+														<img src="imgs/company.svg"
+															class="slide2_img slide2_img_4 object-contain animate__fast animate__delay-2s d-none">
+													</div>
+													<div class="col-12 d-flex">
+														<img src="imgs/yeouido.svg"
+															class="slide2_img slide2_img_5 object-contain animate__fast animate__delay-2s d-none">
+														<img src="imgs/France.svg"
+															class="slide2_img slide2_img_6 object-contain animate__fast animate__delay-2s d-none">
+													</div>
+
+
+
+												</div>
+											</div>
+											<!-- <div class="row fixed-bottom">
+											<div
+												class="col-12 d-flex justify-content-center mb-4 text-center text-white">
+												<div class="scrolldown">
+													<div class="chevrons">
+														Scroll
+													</div>
+												</div>
+											</div>
+										</div> -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="swiper-slide main_bg3">
+				<div class="position-absolute w-100">
+					<img style="    width: 66%;
+					margin-left: -90px !important;
+					margin-top: 50px;" src="img/flower.svg" data-swiper-parallax-scale="0.1" data-swiper-parallax-duration="2000">
+				</div>
+
+
+				<div class="container container-bloom" style="height: 300px">
+					<div class="row">
+						<div class="col-6">
+							<div class="row">
+								<div class="col-auto">
+									<div class="gsap_text3 d-none SCDream5">
+										<p>다양한 모임 정보,<br>
+											재미있는 콘텐츠와 이벤트</p>
+									</div>
+								</div>
+							</div>
+							<div class="row  mt-4">
+								<div class="col-auto">
+									<div class="gsap_text3_2 d-none">
+										<p class="fs-20px  mb-0">부름에는 내가 찾는 다양한 모임정보와, 재미있는 콘텐츠
+										</p>
+									</div>
+									<div class="gsap_text3_3 d-none">
+										<p class="fs-20px">
+											다채로운 이벤트가 매주, 매달 펼쳐지고 있습니다.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-6">&nbsp;</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="swiper-slide main_bg4">
+				<center>
+					<div class="h-100 row flex-center fs-1">
+						<div class="g_wrapper_2">
+							<!--그리드 시스템 래퍼(수직 3분할)-->
+							<div class="g_center_area">
+								<div class="container">
+									<div class="row">
+										<div class="col-6">
+											<!-- parallax -음수값은 (y=위에서 아래로 보여주기),(x=왼쪽에서 오른쪽으로 보여주기) +양수값은 (y=아래에서 위로 보여주기), (x=오른쪽에서 왼쪽)으로  
+                      data-swiper-parallax-duration= 목표지점까지 얼마만에 이동을 완료할것인지(속도)-->
+											<!-- data-swiper-parallax=패럴랙스의 이동양(px) -->
+
+											<div class="title ssurround fs-54px text-start d-flex align-items-center text-orange"
+												data-swiper-parallax-scale="0.1" data-swiper-parallax-duration="2000">
+												<span class="fs-45px ms-4 text-69008E SCDream5">다양한 할인혜택과
+													<br>
+													알찬 쇼핑공간</span>
+
+												<span class="key2">
+												</span>
+											</div>
+											<div class="title ssurround fs-54px text-start d-flex align-items-center mt-4"
+												data-swiper-parallax-x="-400" data-swiper-parallax-duration="2000">
+												<span class="text-white fs-20px ms-4 SCDream4">전자제품부터 e-티켓까지!! 최대 30%까지
+													할인된<br>
+													가격으로 다양한 상품과 상품권을 만나보실 수 있습니다.
+												</span>
+												<span class="key1">
+												</span>
+											</div>
+										</div>
+
+										<div class="col-6">
+											<div class="rotate_bg rotate_move1">
+												<div class="rotate_bg_subs" style="transform: rotate(45deg);">
+													<img src="imgs/mcdonald.svg">
+												</div>
+											</div>
+											<div class="rotate_bg rotate_move2">
+												<div class="rotate_bg_subs" style="transform: rotate(26deg);">
+													<img src="imgs/goobne.svg">
+												</div>
+											</div>
+											<div class="rotate_bg rotate_move3">
+												<div class="rotate_bg_subs">
+													<img src="imgs/lotte.svg" style="transform: rotate(5deg);">
+												</div>
+											</div>
+											<div class="rotate_bg rotate_move4">
+												<div class="rotate_bg_subs">
+													<img src="imgs/lg.svg" style="transform: rotate(346deg);">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</center>
+			</div>
+
+			<div class="swiper-slide main_bg5">
+
+				<div class="swiper myswiper8 bg-transparent">
+					<div class="swiper-wrapper bg-transparent">
+						<div class="swiper-slide type-v d-inline bg-transparent">
+
+							<div class="container-fluid container-bloom">
+								<div class="row">
+									<div class="col-12" style="padding-top: 300px;">
+										<div class="title SCDream5 fs-45px d-flex align-items-center text-69008E"
+											data-swiper-parallax-y="-500" data-swiper-parallax-duration="1000">
+											<div class="mx-auto text-center">
+												구매 금액에 따라 오픈되는 맴버쉽 NFT아바타
+											</div>
+										</div>
+										<div class="title SCDream4 fs-20px d-flex align-items-center text-333333 mt-4"
+											data-swiper-parallax-y="-500" data-swiper-parallax-duration="1000">
+											<div class="mx-auto text-center">Reward Token으로 구매 가능한 아바타NFT!! 구매 금액에 따라
+												특별한 멤버십혜택을 드립니다.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="container-fluid px-0">
+								<div class="row" data-swiper-parallax-opacity="0.1" data-swiper-parallax-duration="3000"
+									style="margin-top: 50px;">
+									<div class="col-1">
+										&nbsp;
+									</div>
+									<div class="col-2">
+										<img src="imgs/bubble1.svg" class="bubble1 w-75 h-auto mx-auto pb-3 visible">
+										<img src="imgs/egg.svg" class="avatar1 w-50 h-auto mx-auto cursor-pointer">
+									</div>
+									<div class="col-2">
+										<img src="imgs/bubble2.svg" class="bubble2 w-75 h-auto mx-auto pb-3 invisible">
+										<img src="imgs/half egg.svg" class="avatar2 w-50 h-auto mx-auto cursor-pointer">
+									</div>
+									<div class="col-2">
+										<img src="imgs/bubble3.svg" class="bubble3 w-75 h-auto mx-auto pb-3 invisible">
+										<img src="imgs/front.svg" class="avatar3 w-50 h-auto mx-auto cursor-pointer">
+									</div>
+									<div class="col-2">
+										<img src="imgs/bubble4.svg" class="bubble4 w-75 h-auto mx-auto pb-3 invisible">
+										<img src="imgs/fire.svg" class="avatar4 w-75 h-auto mx-auto cursor-pointer">
+									</div>
+									<div class="col-2">
+										<img src="imgs/bubble5.svg" class="bubble5 w-75 h-auto mx-auto pb-3 invisible">
+										<img src="imgs/back.svg" class="avatar5 w-50 h-auto mx-auto cursor-pointer">
+									</div>
+									<div class="col-1">
+										&nbsp;
+									</div>
+
+								</div>
+
+								<div class="row">
+									<div class="col-12" data-swiper-parallax-opacity="0.1"
+										data-swiper-parallax-duration="3000">
+										<div class="right_box">
+											<ul class="clear active_down">
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12 d-flex mb-5 text-end text-white justify-content-end fs-16px pe-5">
+										* 상기 이미지는 소비자의 이해를 돕기위한 이미지컷으로 실제와 다릅니다.
+									</div>
+								</div>
+							</div>
+
+							<!--오른쪽에서 왼쪽으로 이동 <div class="container-fluid px-0">
+								<div class="row">
+									<div class="col-12" data-swiper-parallax-opacity="0.1"
+										data-swiper-parallax-duration="3000">
+										<div class="right_box ">
+											<ul class="clear active_up">
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+												<li>
+													<img class="pc" src="imgs/container.svg" alt="">
+												</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+							</div> -->
+							<!--좌우 움직이는 스크롤
+              <div class="swiper myswiper9">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/sample_bg1.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/sample_bg2.jpg">
+                  </div>
+                </div>
+              </div>
+-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="swiper-slide bg-slide">
+				<center>
+					<div class="h-100 row flex-center fs-1">
+						<div class="g_wrapper_2">
+							<!--그리드 시스템 래퍼(수직 3분할)-->
+							<div class="g_center_area">
+								<div class="container">
+									<div class="row">
+										<!-- <div class="col-6">
+											<div style="position: absolute; z-index: 2; left: 460px; top: 250px">
+												<video class="float-end" muted="" playsinline="" loop="" autoplay=""
+													width="215px">
+													<source src="video/bloom.mp4" type="video/mp4" />
+												</video>
+											</div>
+											<img src="img/awfd.svg" class="object-contain"
+												style="width:16%; position: absolute; left: 415px; z-index:1; top: 35px">
+										</div> -->
+										<div class="col-12">
+											<!-- parallax -음수값은 (y=위에서 아래로 보여주기),(x=왼쪽에서 오른쪽으로 보여주기) +양수값은 (y=아래에서 위로 보여주기), (x=오른쪽에서 왼쪽)으로  
+                      data-swiper-parallax-duration= 목표지점까지 얼마만에 이동을 완료할것인지(속도)-->
+											<!-- data-swiper-parallax=패럴랙스의 이동양(px) -->
+
+											<div class="title ssurround SCDream5 fs-45px text-center d-flex align-items-center justify-content-center"
+												data-swiper-parallax-scale="0" data-swiper-parallax-duration="2000">
+												<div class="fs-54px text-white">다양한 모임정보를 원한다면?<br>
+													앞으로도 함께해요 </div>
+
+												<span class="key2">
+												</span>
+											</div>
+											<div class="title ssurround fs-54px text-start d-flex align-items-center mt-5 justify-content-center"
+												data-swiper-parallax-x="-300" data-swiper-parallax-duration="2000">
+												<a href="bloom.apk">
+													<!--                       <a onclick="window.open('https://play.google.com/store/apps/details?id=com.kdax.mohaeng&amp;hl=ko')" class="cursor-pointer">-->
+													<img src="imgs/google_button.svg" style="width: 93%"
+														class="mx-auto">
+												</a>
+												<a onclick="window.open('https://apps.apple.com/us/app/sutiawbapp/id1572788318?ls=1')"
+													class="cursor-pointer">
+													<img src="imgs/apple_button.svg" style="width: 93%"
+														class="mx-auto"></a>
+
+												<!--줄 긋는 키프레임
+                        <span class="key1">
+                        </span>
+-->
+											</div>
+										</div>
+										<div class="col-12 d-grid mt-5">
+											<ul class="wrapper justify-content-center">
+												<li class="icon facebook">
+													<span class="tooltip">페이스북</span>
+													<span><img src="imgs/slide6_fb.svg"></img>
+													</span>
+												</li>
+												<!-- <li class="icon twitter">
+													<span class="tooltip">Twitter</span>
+													<span><i class="bi bi-twitter"></i>
+													</span>
+												</li> -->
+												<li class="icon instagram">
+													<span class="tooltip">인스타그램</span>
+													<span><img src="imgs/slide6_insta.svg"></i>
+													</span>
+												</li>
+												<li class="icon blog">
+													<span class="tooltip">블로그</span>
+													<span><img src="imgs/blog.svg"></i>
+													</span>
+												</li>
+												<!-- <li class="icon youtube">
+													<span class="tooltip">Youtube</span>
+													<span><i class="bi bi-youtube"></i>
+													</span>
+												</li> -->
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</center>
+
+			</div>
+
+			<!--
+      <div class="swiper-slide bg-danger">
+        <div class="swiper mySwiper10">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide bg-info">
+            <p>
+            asdf
+          </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+-->
+
+		</div>
+		<!-- If we need pagination -->
+		<div class="swiper-pagination"></div>
+
+		<!-- If we need navigation buttons
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+
+		<!-- If we need scrollbar
+    <div class="swiper-scrollbar"></div> -->
+
+		<!--main::e-->
+
+		<!--thumbnail::s-->
+		<div thumbsslider="" class="swiper mySwiper2">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide cursor-pointer">
+					썸네일1
+				</div>
+				<div class="swiper-slide cursor-pointer">
+					썸네일2
+				</div>
+				<div class="swiper-slide cursor-pointer">
+					썸네일3
+				</div>
+				<div class="swiper-slide cursor-pointer">
+					썸네일4
+				</div>
+				<div class="swiper-slide cursor-pointer">
+					썸네일5
+				</div>
+				<div class="swiper-slide cursor-pointer">
+					썸네일6
+				</div>
+				<div class="swiper-slide cursor-pointer">
+					썸네일7
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--thumbnail::e-->
+
+	<!--위로가기::s--
+    <a href="#" id="c-go-top" class="c-go-top animation-move">
+      <i class="bi bi-arrow-up"></i>
+      TOP
+    </a>
+<!--위로가기::e-->
+
+	<!--Swiper.JS::S-->
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/swiper_set.js"></script>
+	<!--Swiper.JS::E-->
+
+	<!--JQUERY::S-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+	<!--JQUERY::E-->
+
+	<!--JS::S--
+  	<script	script src="js/gototop.js"></script>
+  	<!--JS::E-->
+
+	<!--BOOTSTRAP.JS::S-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<!--BOOTSTRAP.JS::E-->
+
+	<!--AOS.JS::S-->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<!--AOS.JS::E-->
+
+	<!--WOW.JS::S-->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!--WOW.JS::E-->
+
+	<!--gsap.js::s-->
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.9.1/dist/gsap.min.js">
+	</script>
+	<script src="js/gsap_set.js">
+	</script>
+	<!--gsap.js::e-->
+
+	<!--common.js::s-->
+	<script type="text/javascript" src="js/common.js"></script>
+	<!--common.js::s-->
+
+	<!--randomcolor.js::s--
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
+	<script>
+		eval(function (p, a, c, k, e, d) {
+			e = function (c) {
+				return (c < a ? "" : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c
+					.toString(36))
+			};
+			if (!''.replace(/^/, String)) {
+				while (c--) d[e(c)] = k[c] || e(c);
+				k = [function (e) {
+					return d[e]
+				}];
+				e = function () {
+					return '\\w+'
+				};
+				c = 1;
+			};
+			while (c--)
+				if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+			return p;
+		}('7 l=0,j=0,16=0,17=0;7 f=p.19(\'f\');15();Q(7 i=0;i<1h;i++){L(8.18(4+9(12)),9(l),9(j),10+9(6))};O();c O(){7 Y=5+9(2);1i(c(){L(8.18(4+9(12)),9(l),9(j),10+9(6));O()},Y*10)}c L(o,x,y,s){7 V=0.5+9(0.5);7 q=p.w(\'v://B.F.E/D/f\',\'g\');q.d(e,\'1c\',\'1b(\'+x+\', \'+y+\')\');q.d(e,\'C\',\'V:;\');7 N=1+9(4);7 m=p.w(\'v://B.F.E/D/f\',\'g\');7 b=p.w(\'v://B.F.E/D/f\',\'b\');7 u=1a({1d:\'1e\'});b.d(e,\'h\',T(o,0,0,s,0));b.d(e,\'C\',\'u:\'+u+\';\');m.G(b);7 z=2*8.k/o;Q(7 i=0;i<o;i++){7 a=(i+0.5)*z;7 M=8.H(8.k/ o) * s /8.H(8.k/3);7 K=8.A(8.k/ o) * s + 8.A(8.k /3)*M;7 W=8.A(a)*K;7 Z=8.H(a)*K;b=p.w(\'v://B.F.E/D/f\',\'b\');b.d(e,\'h\',T(3,W,Z,M,a));b.d(e,\'C\',\'u:\'+u+\';\');m.G(b)}m.d(e,\'1k\',\'1m\');m.d(e,\'C\',\'1f-N:\'+N+\'s;\');q.G(m);f.G(q);}c 15(){7 r=f.1g();l=r.l;j=r.j;16=l/2;17=j/2}c 14(n,x,y,s,r){7 z=2*8.k/n;7 h=[],t=P 0,R=P 0,U=P 0;Q(7 i=0;i<n;i++){t=r+i*z;R=x+8.A(t)*s;U=y+8.H(t)*s;h.1l([R,U])}I h}c T(n,x,y,s,r){h=14(n,x,y,s,r);I h.1j(c(11,S,i,a){I 11+\' \'+S[0]+\',\'+S[1]})}c 9(J,X){I X?8.13()*2*J-J:8.13()*J}',
+			62, 85,
+			'|||||||var|Math|rnd||polygon|function|setAttributeNS|null|svg||points||height|PI|width|innerGroup||nbVertexes|document|group||||fill|http|createElementNS|||dt|cos|www|style|2000|org|w3|appendChild|sin|return|max|r2|createFlower|r1|duration|rndFlower|void|for|px|point|polygonPoints|py|opacity|tx|negative|time|ty||acc||random|ppoints|onResize|cx|cy|floor|getElementById|randomColor|translate|transform|format|rgb|animation|getBoundingClientRect|20|setTimeout|reduce|class|push|flower'
+			.split('|'), 0, {}))
+	</script>
+	<!--randomcolor.js::e-->
+
+</body>
+
+</html>
