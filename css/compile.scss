@@ -62,7 +62,7 @@
 .header-logo {
   &-white {
     background: {
-      image: url("/imgs/logo_white.svg");
+      image: url("../imgs/logo_white.svg");
       repeat: no-repeat;
     }
 
@@ -72,7 +72,7 @@
 
   &-black {
     background: {
-      image: url("/imgs/logo_black.svg");
+      image: url("../imgs/logo_black.svg");
       repeat: no-repeat;
     }
 
