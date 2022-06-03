@@ -269,8 +269,8 @@
   opacity: 0;
   -webkit-animation-name: opacity_test;
           animation-name: opacity_test;
-  -webkit-animation-duration: 900ms;
-          animation-duration: 900ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   -webkit-animation-iteration-count: 1;
@@ -280,8 +280,8 @@
 .rotate_trigger1 {
   -webkit-animation-name: rotate_test1;
           animation-name: rotate_test1;
-  -webkit-animation-duration: 900ms;
-          animation-duration: 900ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   -webkit-animation-iteration-count: 1;
@@ -291,8 +291,8 @@
 .rotate_trigger2 {
   -webkit-animation-name: rotate_test2;
           animation-name: rotate_test2;
-  -webkit-animation-duration: 900ms;
-          animation-duration: 900ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   -webkit-animation-iteration-count: 1;
@@ -304,8 +304,8 @@
 .rotate_trigger3 {
   -webkit-animation-name: rotate_test3;
           animation-name: rotate_test3;
-  -webkit-animation-duration: 900ms;
-          animation-duration: 900ms;
+  -webkit-animation-duration: 700ms;
+          animation-duration: 700ms;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   -webkit-animation-iteration-count: 1;
@@ -450,4 +450,12 @@
   color: #ffffff;
   font-size: 16px;
   font-family: "SCDream4";
+}
+
+.header_border_line {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2392156863);
+}
+
+.header_bg {
+  background-color: rgba(255, 255, 255, 0.1019607843);
 }/*# sourceMappingURL=compile.css.map */

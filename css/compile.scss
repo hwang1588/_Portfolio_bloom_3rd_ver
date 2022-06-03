@@ -318,7 +318,7 @@
 
     animation: {
       name: opacity_test;
-      duration: 900ms;
+      duration: 700ms;
       fill-mode: forwards;
       iteration-count: 1;
     }
@@ -328,7 +328,7 @@
 .rotate_trigger1 {
   animation: {
     name: rotate_test1;
-    duration: 900ms;
+    duration: 700ms;
     fill-mode: forwards;
     iteration-count: 1;
   }
@@ -337,7 +337,7 @@
 .rotate_trigger2 {
   animation: {
     name: rotate_test2;
-    duration: 900ms;
+    duration: 700ms;
     fill-mode: forwards;
     iteration-count: 1;
     delay: 500ms;
@@ -348,7 +348,7 @@
 .rotate_trigger3 {
   animation: {
     name: rotate_test3;
-    duration: 900ms;
+    duration: 700ms;
     fill-mode: forwards;
     iteration-count: 1;
     delay: 1000ms;
@@ -480,4 +480,12 @@ padding-right: 108px;
 color:#ffffff;
 font-size: 16px;
 font-family: "SCDream4";
+}
+
+.header_border_line{
+  border-bottom: 1px solid #ffffff3D;
+}
+
+.header_bg{
+background-color:#ffffff1A;
 }
