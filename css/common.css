@@ -1366,7 +1366,7 @@ polygon {
   white-space: nowrap;
   /* Keeps the content on a single line */
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   /* Adjust as needed */
   animation:
     typing 0.5s steps(6, end),
@@ -1431,7 +1431,7 @@ polygon {
   font-size: 45px;
   overflow: hidden;
   white-space: nowrap;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   animation:
     typing2 0.6s steps(9, end),
     blink-caret .4s step-end infinite;
@@ -1445,7 +1445,7 @@ polygon {
   font-size: 45px;
   overflow: hidden;
   white-space: nowrap;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   animation:
     typing2 0.5s steps(6, end),
     blink-caret .4s step-end infinite;
@@ -1489,7 +1489,7 @@ polygon {
   font-size: 45px;
   overflow: hidden;
   white-space: nowrap;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   animation:
     typing3 0.6s steps(8, end),
     blink-caret .4s step-end infinite;
@@ -1503,7 +1503,7 @@ polygon {
   font-size: 45px;
   overflow: hidden;
   white-space: nowrap;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   animation:
     typing3 0.7s steps(10, end),
     blink-caret .4s step-end infinite;
@@ -1542,7 +1542,7 @@ polygon {
   font-size: 45px;
   overflow: hidden;
   white-space: nowrap;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   animation:
     typing3 0.5s steps(8, end),
     blink-caret .4s step-end infinite;
@@ -1609,7 +1609,7 @@ polygon {
   height: 8px;
   width: 8px;
   background: #ffffff;
-  bottom: -3px;
+  bottom: -2px;
   left: 50%;
   transform: translate(-50%) rotate(45deg);
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
