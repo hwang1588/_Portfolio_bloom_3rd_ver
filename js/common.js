@@ -1,20 +1,20 @@
-const circle = document.querySelector(".circle");
-document.addEventListener("mousemove", (e) => {
-  const mouseX = e.clientX;
-  const mouseY = e.clientY;
-  circle.style.left = mouseX + 'px';
-  circle.style.top = mouseY + 'px';
-});
+// const circle = document.querySelector(".circle");
+// document.addEventListener("mousemove", (e) => {
+//   const mouseX = e.clientX;
+//   const mouseY = e.clientY;
+//   circle.style.left = mouseX + 'px';
+//   circle.style.top = mouseY + 'px';
+// });
 
-var $circle = $(".circle"); //변수 할당=특정요소를 지정
-function moveCircle(e) {
-  gsap.to($circle, 1000, { //숫자가 높으면 커서이동후 원 반응속도 느려짐
-    css: {
-      left: e.pageX,
-      top: e.pageY
-    }
-  });
-}
+// var $circle = $(".circle"); //변수 할당=특정요소를 지정
+// function moveCircle(e) {
+//   gsap.to($circle, 1000, { //숫자가 높으면 커서이동후 원 반응속도 느려짐
+//     css: {
+//       left: e.pageX,
+//       top: e.pageY
+//     }
+//   });
+// }
 
 
 window.setTimeout(function () {

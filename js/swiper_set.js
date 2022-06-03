@@ -275,12 +275,16 @@ const swiper = new Swiper(".mySwiper1", {
 					$(".gsap_text1").addClass('d-none').removeClass('animate__animated typewriter1');
 					$(".gsap_text1_2").addClass('d-none').removeClass('animate__animated typewriter1_2');
 					$(".slide2_img").addClass('d-none');
+					$(".slide2_text").addClass('d-none');
+					$(".slide3_text").addClass('d-none');
+					$(".slide4_text").addClass('d-none');
 					$(".gsap_text2").addClass('d-none');
 					$(".gsap_text2_2").addClass('d-none');
 					$(".gsap_text2_3").addClass('d-none');
 					$(".gsap_text3").addClass('d-none');
 					$(".gsap_text3_2").addClass('d-none');
 					$(".gsap_text3_3").addClass('d-none');
+					$(".gsap_text4").addClass('d-none');
 					$(".rotate_move1").removeClass('rotate_trigger1').addClass('d-none');
 					$(".rotate_move2").removeClass('rotate_trigger2').addClass('d-none');
 					$(".rotate_move3").removeClass('rotate_trigger3').addClass('d-none');
@@ -291,7 +295,7 @@ const swiper = new Swiper(".mySwiper1", {
 
 				},
 				slideChangeTransitionEnd: function () {
-					$(".test_phone, .img_tag_set, .circle_set, .phone_btn, .flash, .headshake, .key1, .clock_test, .rotate_start, .gsap_text1, .gsap_text2, .slide2_img").show(0); //슬라이드 전환이 끝나면 해당 클래스가 있는 부분을 보여줌
+					$(".test_phone, .img_tag_set, .circle_set, .phone_btn, .flash, .headshake, .key1, .clock_test, .rotate_start, .gsap_text1, .gsap_text2, .gsap_text2, .gsap_text4, .slide2_img, .slide2_text, .slide3_text, .slide4_text").show(0); //슬라이드 전환이 끝나면 해당 클래스가 있는 부분을 보여줌
 					$(".test_phone").addClass('animate__animated animate__fadeIn');
 					$(".img_tag_1").addClass('animate__animated animate__bounceIn');
 					$(".circle_1").addClass('animate__animated animate__rotateIn');
@@ -307,10 +311,14 @@ const swiper = new Swiper(".mySwiper1", {
 					$(".slide1_img2").addClass('animate__animated animate__bounceIn').removeClass('d-none');
 					$(".slide1_img3").addClass('animate__animated animate__bounceIn').removeClass('d-none');
 					$(".slide2_img").addClass('animate__animated animate__bounceIn').removeClass('d-none');
+					$(".slide2_text").addClass('animate__animated animate__fadeInDown').removeClass('d-none');
+					$(".slide3_text").addClass('animate__animated animate__flipInX').removeClass('d-none');
+					$(".slide4_text").addClass('animate__animated animate__bounceIn').removeClass('d-none');
 					$(".gsap_text2").addClass('animate__animated typewriter2').removeClass('d-none');
 					$(".gsap_text3").addClass('animate__animated typewriter3').removeClass('d-none');
 					$(".gsap_text3_2").addClass('animate__animated typewriter3_2').removeClass('d-none');
 					$(".gsap_text3_2").addClass('animate__animated typewriter3_2').removeClass('d-none');
+					$(".gsap_text4").addClass('animate__animated typewriter4').removeClass('d-none');
 					$(".rotate_move1").addClass('rotate_trigger1').removeClass('d-none');
 					$(".rotate_move2").addClass('rotate_trigger2').removeClass('d-none');
 					$(".rotate_move3").addClass('rotate_trigger3').removeClass('d-none');

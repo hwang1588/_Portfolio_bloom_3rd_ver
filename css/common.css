@@ -1366,7 +1366,7 @@ polygon {
   white-space: nowrap;
   /* Keeps the content on a single line */
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .05em;
+  letter-spacing: -3px;
   /* Adjust as needed */
   animation:
     typing 0.5s steps(6, end),
@@ -1392,7 +1392,7 @@ polygon {
   animation:
     typing 2.5s steps(30, end),
     blink-caret .4s step-end infinite;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 /* The typing effect */
@@ -1431,12 +1431,12 @@ polygon {
   font-size: 45px;
   overflow: hidden;
   white-space: nowrap;
-  letter-spacing: .05em;
+  letter-spacing: -3px;
   animation:
-    typing2 0.5s steps(6, end),
+    typing2 0.6s steps(9, end),
     blink-caret .4s step-end infinite;
   margin: 0;
-  font-family: "SCDream6" !important;
+  font-family: "SCDream5" !important;
 }
 
 .typewriter2_2 p {
@@ -1478,18 +1478,6 @@ polygon {
   }
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret2 {
-
-  from,
-  to {
-    border-color: transparent
-  }
-
-  50% {
-    border-color: black
-  }
-}
 
 /*커브 애니메이션*/
 
@@ -1500,12 +1488,12 @@ polygon {
   font-size: 45px;
   overflow: hidden;
   white-space: nowrap;
-  letter-spacing: .05em;
+  letter-spacing: -3px;
   animation:
-    typing3 0.5s steps(6, end),
+    typing3 0.6s steps(8, end),
     blink-caret .4s step-end infinite;
   margin: 0;
-  font-family: "SCDream6" !important;
+  font-family: "SCDream5" !important;
 }
 
 .typewriter3_2 p {
@@ -1547,16 +1535,29 @@ polygon {
   }
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret3 {
+.typewriter4 p {
+  text-align: start;
+  color: #69008E;
+  font-size: 45px;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: -3px;
+  animation:
+    typing3 0.5s steps(8, end),
+    blink-caret .4s step-end infinite;
+  margin: 0;
+  font-family: "SCDream5" !important;
+}
 
-  from,
-  to {
-    border-color: transparent
+/* The typing effect */
+@keyframes typing4 {
+  from {
+    width: 0;
+    border-right: 0.01em solid
   }
 
-  50% {
-    border-color: black
+  to {
+    width: 100%;
   }
 }
 
