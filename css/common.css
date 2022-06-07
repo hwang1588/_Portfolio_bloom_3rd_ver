@@ -1021,8 +1021,9 @@ width: 70%;
 .right_box ul {
   display: inline-block;
   margin-right: 6%;
-  width: calc(352px * 36);
-  height: calc(352px * 36);
+  /* width: calc(352px * 36); */
+  width: 568vw;
+  height: 568vw;
 }
 
 .right_box ul:nth-child(2) {
@@ -1046,7 +1047,7 @@ width: 70%;
 }
 
 .right_box .active_down li {
-  margin-top: -34px;
+  margin-top: -1vw;
   width: 100%;
   position: relative;
 }

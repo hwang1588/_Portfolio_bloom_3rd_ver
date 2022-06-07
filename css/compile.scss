@@ -300,11 +300,11 @@
 
 .rotate_bg {
   position: absolute;
-  width: 1300px;
-  height: 250px;
-  bottom: 510px;
+  width: 68vw;
+  height: 13vw;
+  bottom: 26.5vw;
   margin: 0 auto;
-  left: 47%;
+  left: 47vw;
   -webkit-transform: translateX(-540px);
   transform: translateX(-540px);
   transform: rotate(230deg);
@@ -476,11 +476,11 @@
 .warn{
 position: absolute;
 z-index: 1;
-margin: 130px 0 0 auto;
+margin: 6.5vw 0 0 auto;
 width: 100%;
-padding-right: 108px;
+padding-right: 5.5vw;
 color:#ffffff;
-font-size: 16px;
+font-size: 0.83vw;
 font-family: "SCDream4";
 }
 
