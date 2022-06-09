@@ -1696,14 +1696,14 @@ polygon {
     display: inline-block;
     background: transparent;
     color: #F4F4F4;
-    font-size0.84vw;
+    font-size:0.84vw;
     font-weight: normal;
     width: 216px;
     text-align: center;
     border-radius: 40px;
     transition: 400ms;
     text-decoration: none;
-    padding: 18px;
+    padding: 16px;
     z-index: 100000;
     border: 1px solid white;
     font-family: "SCDream4";
