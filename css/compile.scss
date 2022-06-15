@@ -491,3 +491,40 @@ font-family: "SCDream4";
 .header_bg{
 background-color:#ffffff1A;
 }
+
+.scaledown{
+  animation-name: sdown;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sdown{
+
+  0%{
+    transform: scale3d(1, 1, 1);
+  }
+
+  100%{
+    transform: scale3d(0.8, 0.8, 1);
+  }
+
+}
+
+.scaleup{
+  animation-name: sup;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sup{
+  0%{
+    transform: scale3d(0.8, 0.8, 1);
+  }
+
+  100%{
+    transform: scale3d(1, 1, 1);
+  }
+
+}

@@ -257,6 +257,7 @@ const swiper = new Swiper(".mySwiper1", {
 
 	on: {
 		slideChangeTransitionStart: function () {
+			// $(".swiper-slide").addClass('scaledown').removeClass('scaleup')
 			$(".test_phone, .img_tag_set, .circle_set, .phone_btn, .flash, .headshake, .key1, .clock_test, .rotate_start").hide(0); //슬라이드 전환이 시작되면 해당 클래스가 있는 부분을 숨김 .gsap_text, .gsap_text_two 뺐음
 			//클래스 맨뒤에 ,남길경우 슬라이드 전환중 다른 슬라이드로 전환 가능
 			$(".test_phone").removeClass('animate__animated animate__fadeIn');
@@ -275,6 +276,7 @@ const swiper = new Swiper(".mySwiper1", {
 			$(".rotate_move1, .rotate_move2, .rotate_move3, .rotate_move4").removeClass('rotate_trigger1, rotate_trigger2, rotate_trigger3, rotate_trigger4').addClass('d-none');
 		},
 		slideChangeTransitionEnd: function () {
+			// $(".swiper-slide").addClass('scaleup').removeClass('scaledown')
 			$(".test_phone, .img_tag_set, .circle_set, .phone_btn, .flash, .headshake, .key1, .clock_test, .rotate_start, .gsap_text1, .gsap_text2, .gsap_text4, .slide2_img, .slide2_text, .slide3_text, .slide4_text").show(0);
 			$(".test_phone").addClass('animate__animated animate__fadeIn');
 			$(".img_tag_1").addClass('animate__animated animate__bounceIn');
