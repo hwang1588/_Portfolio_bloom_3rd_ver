@@ -182,8 +182,8 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  width0.84vw;
-  height0.84vw;
+  width:0.84vw;
+  height:0.84vw;
   border-radius: 50%;
   background-color: rgb(132, 65, 200);
   transform: translate(-50%, -50%);
