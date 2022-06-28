@@ -1345,7 +1345,7 @@ polygon {
 
 @media all and (max-width:499px) {
   .mobile_hand {
-    margin-left: 5rem;
+    margin-left: 13vw;
   }
 
   .mobile_hand_img {
