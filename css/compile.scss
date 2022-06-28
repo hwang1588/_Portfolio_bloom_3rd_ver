@@ -3,21 +3,21 @@
 }
 
 .swiper-pagination-bullet {
-  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
-  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 0.4vw));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 0.4vw));
   background-color: #ffffff73;
-  margin: 24px auto !important;
+  margin: 1vw auto !important;
 
   &-active {
-    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 14px));
-    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 14px));
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 0.7vw));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 0.7vw));
     background-color: #ffffff;
   }
 }
 
 .swiper-pagination-vertical.swiper-pagination-bullets,
 .swiper-vertical>.swiper-pagination-bullets {
-  right: 80px;
+  right: 3vw;
 }
 
 ////////////////////
@@ -31,8 +31,8 @@
     }
 
     &-98px {
-      margin-left: 98px;
-      margin-right: 98px;
+      margin-left: 3vw;
+      margin-right: 3vw;
     }
   }
 
@@ -56,7 +56,7 @@
 
   &e {
     &-24px {
-      margin-right: 24px;
+      margin-right: 1vw;
     }
 
     &-69px {
@@ -64,7 +64,7 @@
     }
 
     &-73px {
-      margin-right: 73px;
+      margin-right: 2vw;
     }
   }
 
@@ -107,7 +107,7 @@
     }
 
     width: 100%;
-    height: 2.18vw;
+    height: 2.7vw;
   }
 
   &-black {
@@ -118,7 +118,7 @@
     }
 
     width: 100%;
-    height: 2.18vw;
+    height: 2.7vw;
   }
 }
 
@@ -264,37 +264,38 @@
 
 .slide2_img {
   &_1 {
-    height: 150px !important;
-    margin-left: 40px
+    height: 7vw !important;
+    margin-left: 1vw
   }
 
   &_2 {
-    height: 134px !important;
-    margin-top: 71px;
-    margin-left: -70px;
+    height: 6vw !important;
+    margin-top: 3.5vw;
+    margin-left: -6vw;
   }
 
   &_3 {
-    height: 151px !important;
-    margin-top: -112px;
+    height: 7vw !important;
+    margin-top: -5.6vw;
+    margin-left: -3vw;
   }
 
   &_4 {
-    height: 151px !important;
-    margin-top: -38px;
-    margin-left: -7px;
+    height: 7vw !important;
+    margin-top: -2.2vw;
+    margin-left: -6vw;
   }
 
   &_5 {
-    height: 124px !important;
-    margin-top: -110px;
-    margin-left: -68px;
+    height: 6.5vw !important;
+    margin-top: -6vw;
+    margin-left: -7vw;
   }
 
   &_6 {
-    height: 136px !important;
-    margin-top: -57px;
-    margin-left: -199px;
+    height: 6.5vw !important;
+    margin-top: -3vw;
+    margin-left: -15vw;
   }
 }
 
