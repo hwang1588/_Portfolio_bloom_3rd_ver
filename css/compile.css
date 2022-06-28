@@ -518,4 +518,15 @@
   100% {
     transform: scale3d(1, 1, 1);
   }
+}
+.w-10vw {
+  width: 10vw;
+}
+
+.fs-1vw {
+  font-size: 1vw;
+}
+
+.fs-1point3vw {
+  font-size: 1.3vw;
 }/*# sourceMappingURL=compile.css.map */

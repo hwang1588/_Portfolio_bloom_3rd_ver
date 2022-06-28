@@ -474,58 +474,70 @@
   min-width: 1920px;
 }
 
-.warn{
-position: absolute;
-z-index: 1;
-margin: 6.5vw 0 0 auto;
-width: 100%;
-padding-right: 5.5vw;
-color:#ffffff;
-font-size: 0.83vw;
-font-family: "SCDream4";
+.warn {
+  position: absolute;
+  z-index: 1;
+  margin: 6.5vw 0 0 auto;
+  width: 100%;
+  padding-right: 5.5vw;
+  color: #ffffff;
+  font-size: 0.83vw;
+  font-family: "SCDream4";
 }
 
-.header_border_line{
+.header_border_line {
   border-bottom: 1px solid #ffffff3D;
 }
 
-.header_bg{
-background-color:#ffffff1A;
+.header_bg {
+  background-color: #ffffff1A;
 }
 
-.scaledown{
+.scaledown {
   animation-name: sdown;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
-@keyframes sdown{
+@keyframes sdown {
 
-  0%{
+  0% {
     transform: scale3d(1, 1, 1);
   }
 
-  100%{
+  100% {
     transform: scale3d(0.8, 0.8, 1);
   }
 
 }
 
-.scaleup{
+.scaleup {
   animation-name: sup;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
-@keyframes sup{
-  0%{
+@keyframes sup {
+  0% {
     transform: scale3d(0.8, 0.8, 1);
   }
 
-  100%{
+  100% {
     transform: scale3d(1, 1, 1);
   }
 
+}
+
+.w-10vw {
+  width: 10vw;
+}
+
+.fs-1vw {
+  font-size: 1vw;
+}
+
+.fs-1point3vw{
+  font-size: 1.3vw
 }
