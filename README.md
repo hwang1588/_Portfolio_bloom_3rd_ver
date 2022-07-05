@@ -21,6 +21,7 @@
 <img src="https://github.com/hwang1588/repo_img_src/blob/main/_korfin_bloom_3rd_ver/pc3.png">
 <img src="https://github.com/hwang1588/repo_img_src/blob/main/_korfin_bloom_3rd_ver/pc4.png">
 <img src="https://github.com/hwang1588/repo_img_src/blob/main/_korfin_bloom_3rd_ver/pc5.png">
+<img src="https://github.com/hwang1588/repo_img_src/blob/main/_korfin_bloom_3rd_ver/pc6.png">
 
 ### - MOBILE
 N/A
